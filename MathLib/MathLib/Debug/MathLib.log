@@ -1,0 +1,31 @@
+﻿Build started 16.12.2014 2:09:12.
+     1>Project "C:\Users\MinQ\Desktop\MathLib\MathLib\MathLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Matrix3X3.cpp Matrix4X4.cpp Quaternion.cpp Vector2.cpp
+         Matrix4X4.cpp
+     1>c:\users\minq\desktop\mathlib\mathlib\matrix4x4.cpp(168): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\minq\desktop\mathlib\mathlib\matrix4x4.cpp(216): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         Matrix3X3.cpp
+         Generating Code...
+         Compiling...
+         Main.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Quaternion.cpp
+         Vector2.cpp
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MinQ\Desktop\MathLib\Debug\MathLib.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\MinQ\Desktop\MathLib\Debug\MathLib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\MinQ\Desktop\MathLib\Debug\MathLib.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Matrix3X3.obj
+         Debug\Matrix4X4.obj
+         Debug\Quaternion.obj
+         Debug\Vector2.obj
+         Debug\Vector3.obj
+         Debug\Vector4.obj
+         MathLib.vcxproj -> C:\Users\MinQ\Desktop\MathLib\Debug\MathLib.exe
+     1>Done Building Project "C:\Users\MinQ\Desktop\MathLib\MathLib\MathLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.65
